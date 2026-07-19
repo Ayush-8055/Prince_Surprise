@@ -1,7 +1,20 @@
 const photos = [
-  "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1492681290082-e932934d6a4d?auto=format&fit=crop&w=800&q=80",
+  "/images/PolaroidGallery/1_2.JPG",
+  "/images/PolaroidGallery/2.JPG",
+  "/images/PolaroidGallery/3.JPG",
+  "/images/PolaroidGallery/4.JPG",
+  "/images/PolaroidGallery/5.JPG",
+  "/images/PolaroidGallery/6.JPG",
+  "/images/PolaroidGallery/7.JPG",
+  "/images/PolaroidGallery/8.JPG",
+  "/images/PolaroidGallery/9.JPG",
+  "/images/PolaroidGallery/11.JPG",
+  "/images/PolaroidGallery/12.JPG",
+  "/images/PolaroidGallery/13.JPG",
+  "/images/PolaroidGallery/14.JPG",
+  "/images/PolaroidGallery/15.JPG",
+  "/images/PolaroidGallery/16.JPG",
+  "/images/PolaroidGallery/17.JPG",
 ];
 
 function PolaroidGallery() {

@@ -10,9 +10,12 @@ import PolaroidGallery from "./components/PolaroidGallery";
 import PhotoCarousel from "./components/PhotoCarousel";
 import Cake from "./components/Cake";
 import ShareButton from "./components/ShareButton";
+import Quote from "./components/Quote";
+import Gallery from "./components/Gallery";
 
 function App() {
   const [opened, setOpened] = useState(false);
+  const [showGallery, setShowGallery] = useState(false);
 
   const handleOpenGift = () => {
     setOpened(true);
@@ -85,8 +88,25 @@ function App() {
 
           <section className="section-shell">
             <div className="section-card">
+              <h2 className="section-title">A Little Secret Message 💕</h2>
+              <Quote />
+            </div>
+          </section>
+
+          <section className="section-shell">
+            <div className="section-card">
               <h2 className="section-title">Favorite Moments ❤️</h2>
               <PhotoCarousel />
+            </div>
+          </section>
+
+          <section className="section-shell">
+            <div className="section-card">
+              <h2 className="section-title">Hidden Gift Box 🎁</h2>
+              <button className="hidden-gift-btn" onClick={() => setShowGallery((prev) => !prev)}>
+                {showGallery ? "Hide the memories" : "Open hidden gifts"}
+              </button>
+              <Gallery isOpen={showGallery} />
             </div>
           </section>
 
@@ -95,13 +115,7 @@ function App() {
               <h2 className="section-title">Our Song 🎵</h2>
               <div className="iframe-shell">
                 <iframe
-                  src="https://open.spotify.com/embed/track/0tgVpDi06FyKpA1z0VMD4v"
-                  width="100%"
-                  height="352"
-                  frameBorder="0"
-                  allowFullScreen=""
-                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
+                  src="https://open.spotify.com/embed/track/4WEMpdGf65QpkAIy8AtLFE?utm_source=generator&si=b198b21948464976" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
                   title="spotify"
                 />
               </div>

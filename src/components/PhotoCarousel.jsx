@@ -1,9 +1,15 @@
 import { useState } from "react";
 
 const photos = [
-  "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1000&q=80",
-  "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=80",
-  "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80",
+    "/images/PhotoCarousel/1_2.JPG",
+    "/images/PhotoCarousel/2.JPG",
+    "/images/PhotoCarousel/3.JPG",
+    "/images/PhotoCarousel/4.JPG",
+    "/images/PhotoCarousel/5.JPG",
+    "/images/PhotoCarousel/6.JPG",
+    "/images/PhotoCarousel/7.JPG",
+    "/images/PhotoCarousel/8.JPG",
+    "/images/PhotoCarousel/9.JPG",
 ];
 
 function PhotoCarousel() {
